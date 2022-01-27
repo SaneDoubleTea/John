@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="csss/reset.css" />
+    <link rel="stylesheet" href="csss/style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./csss/swiper.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="menu-burger__header">
+          <span></span>
+        </div>
+        <nav class="menu __active">
+          <ul class="menu-list">
+            <li class="menu-list__item">
+              <a href="#!"> Works</a>
+            </li>
+            <li class="menu-list__item">
+              <a href="./blog.html"> Blog</a>
+            </li>
+            <li class="menu-list__item">
+              <a href="./swiper normal/index.html"> Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="intro">
+        <div class="container">
+          <div class="intro-content">
+            <div class="intro-title">
+              <h1>
+                Hi, I am John, <br />
+                Creative Technologist
+              </h1>
+              <p>
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                Velit officia consequat duis enim velit mollit. Exercitation veniam
+                consequat sunt nostrud amet.
+              </p>
+            </div>
+            <div class="intro-avatar">
+              <img src="img/intro-avatar.png" alt="intro-avatar-image" />
+            </div>
+          </div>
+          <button class="intro-button button--red">Download Resume</button>
+        </div>
+      </section>
+      <!--/Intro-->
+
+      <!-- Slider main container -->
+      <div class="swiper-container">
+        <div class="swiper mySwiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <div class="post-content__item">
+                <div class="post-content__item-title">
+                  <h3>Making a design system from <br />scratch</h3>
+                </div>
+                <div class="post-content__item-subtitle">
+                  <span> 12 Feb 2020</span>
+                  <span> Design, Pattern</span>
+                </div>
+                <div class="post-content__item-info">
+                  <p>
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                    sint. Velit officia consequat duis enim velit mollit. Exercitation
+                    veniam consequat sunt nostrud amet.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="post-content__item">
+                <div class="post-content__item-title">
+                  <h3>Making a design system from <br />scratch</h3>
+                </div>
+                <div class="post-content__item-subtitle">
+                  <span> 12 Feb 2020</span>
+                  <span> Design, Pattern</span>
+                </div>
+                <div class="post-content__item-info">
+                  <p>
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                    sint. Velit officia consequat duis enim velit mollit. Exercitation
+                    veniam consequat sunt nostrud amet.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="./swiper normal/img/ico-07.png" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./swiper normal/img/ico-08.png" alt="" />
+            </div>
+          </div>
+          <!-- pagination -->
+          <div class="swiper-pagination img-slider-pagination"></div>
+          <!--  кнопки нав -->
+          <div class="swiper-button-prev img-slider__button"></div>
+          <div class="swiper-button-next img-slider__button"></div>
+          <!-- scrollbar -->
+          <div class="swiper-scrollbar"></div>
+        </div>
+      </div>
+      <!--Posts-->
+      <section class="posts">
+        <div class="container">
+          <div class="posts-header">
+            <div class="posts-title">
+              <h2>Recent posts</h2>
+            </div>
+            <div class="posts-button">
+              <a href=""> View all</a>
+            </div>
+          </div>
+          <div class="posts-content">
+            <div class="post-content__items">
+              <div class="post-content__item">
+                <div class="post-content__item-title">
+                  <h3>Making a design system from <br />scratch</h3>
+                </div>
+                <div class="post-content__item-subtitle">
+                  <span> 12 Feb 2020</span>
+                  <span> Design, Pattern</span>
+                </div>
+                <div class="post-content__item-info">
+                  <p>
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                    sint. Velit officia consequat duis enim velit mollit. Exercitation
+                    veniam consequat sunt nostrud amet.
+                  </p>
+                </div>
+              </div>
+              <div class="post-content__item">
+                <div class="post-content__item-title">
+                  <h3>Creating pixel perfect icons in <br />Figma</h3>
+                </div>
+                <div class="post-content__item-subtitle">
+                  <span> 12 Feb 2020</span>
+                  <span></span>
+                  <span> Figma, Icon Design</span>
+                </div>
+                <div class="post-content__item-info">
+                  <p>
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                    sint. Velit officia consequat duis enim velit mollit. Exercitation
+                    veniam consequat sunt nostrud amet.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--//Posts-->
+
+      <!-- Works -->
+      <section class="Featured-works">
+        <div class="container">
+          <div class="Featured-works__title">
+            <h3>Featured works</h3>
+          </div>
+          <div class="works">
+            <div class="work work-1">
+              <div class="work-content">
+                <div class="work-img">
+                  <img src="img/works/work-1.png" alt="work-1" />
+                </div>
+                <div class="work__desc">
+                  <div class="work__desc-title">
+                    <h4>Designing Dashboards</h4>
+                  </div>
+                  <div class="work__desc-subtitle">
+                    <span class="subtitle-border">2020</span>
+                    <span class="subtitle-transparent"> Dashboard</span>
+                  </div>
+                  <div class="work__desc-info">
+                    <p>
+                      Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                      sint. Velit officia consequat duis enim velit mollit. Exercitation
+                      veniam consequat sunt nostrud amet.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="work work-2">
+              <div class="work-content">
+                <div class="work-img">
+                  <img src="img/works/work-2.png" alt="work-1" />
+                </div>
+                <div class="work__desc">
+                  <div class="work__desc-title">
+                    <h4>Designing Dashboards</h4>
+                  </div>
+                  <div class="work__desc-subtitle">
+                    <span class="subtitle-border">2018</span>
+                    <span class="subtitle-transparent"> Illustration</span>
+                  </div>
+                  <div class="work__desc-info">
+                    <p>
+                      Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                      sint. Velit officia consequat duis enim velit mollit. Exercitation
+                      veniam consequat sunt nostrud amet.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="work work-3">
+              <div class="work-content">
+                <div class="work-img">
+                  <img src="img/works/work-3.png" alt="work-1" />
+                </div>
+                <div class="work__desc">
+                  <div class="work__desc-title">
+                    <h4>36 Days of Malayalam type</h4>
+                  </div>
+                  <div class="work__desc-subtitle">
+                    <span class="subtitle-border">2018</span>
+                    <span class="subtitle-transparent"> Typography</span>
+                  </div>
+                  <div class="work__desc-info">
+                    <p>
+                      Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                      sint. Velit officia consequat duis enim velit mollit. Exercitation
+                      veniam consequat sunt nostrud amet.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- //Works -->
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-social">
+          <div class="footer-social-item">
+            <a href=""><img src="img/social/fb.svg" alt="" /></a>
+            <a href=""><img src="img/social/insta.svg" alt="" /></a>
+            <a href=""><img src="img/social/tw.svg" alt="" /></a>
+            <a href=""><img src="img/social/Linkedin.svg" alt="" /></a>
+          </div>
+        </div>
+        <div class="footer-copy">
+          <p>Copyright ©2020 All rights reserved</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="./swiper.js"></script>
+  </body>
+</html>

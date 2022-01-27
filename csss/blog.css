@@ -1,0 +1,119 @@
+.container {
+  background: #ffffff;
+  max-width: 1150px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.blog-container {
+  width: 900px;
+  margin: 0 auto;
+}
+.menu-list {
+  height: 100%;
+  max-height: 30px;
+  margin-bottom: 115px;
+  display: flex;
+  justify-content: flex-end;
+}
+.menu-list__item {
+  padding-top: 27px;
+
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+  text-align: right;
+}
+.menu-list__item:first-child a {
+  color: #ff6464;
+}
+.menu-list__item:not(:last-child) {
+  margin-right: 33px;
+}
+.menu-list__item:last-child {
+  margin-right: 90px;
+}
+.menu-list__item a {
+  color: #000;
+}
+.blogs {
+  margin-bottom: 100px;
+}
+.blog {
+  margin-bottom: 22px;
+}
+.blog-title h1 {
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 136%;
+  color: #21243d;
+  margin-bottom: 40px;
+}
+
+.blog-title h2 {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 44px;
+  color: #21243d;
+  margin-bottom: 5px;
+}
+.blog-subtitle {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 29px;
+  color: #21243d;
+  margin-bottom: 10px;
+}
+
+.blog-subtitle span:first-child {
+  margin-right: 10px;
+  padding-right: 12px;
+  border-right: #000 solid 1px;
+}
+
+.blog-subtitle span:nth-child(2) {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 29px;
+  color: #8695a4;
+}
+.blog-content {
+  max-width: 682px;
+  padding-right: 10px;
+}
+.blog-content p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  color: #21243d;
+}
+
+.blog-content p:last-child {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+/* Footer  */
+
+.footer-social {
+  display: flex;
+  align-items: center;
+
+  justify-content: center;
+  margin-right: 210px;
+  margin-bottom: 26px;
+}
+.footer-social-item a {
+  margin-right: 10px;
+}
+.footer-copy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: #21243d;
+}
